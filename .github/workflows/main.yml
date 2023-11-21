@@ -26,7 +26,7 @@ jobs:
       - name: Upload to TdA
         uses: Tour-de-App/upload-app@tda-24
         with:
-          team_secret: ${{ secrets.TEAM_SECRET }}
+          team_secret: ${{ '2d8bcbf7c858db877e131211ead17e62' }}
           image_name: tda-generic
           image_path: /tmp/tda-generic.tar
-/start.sh
+
